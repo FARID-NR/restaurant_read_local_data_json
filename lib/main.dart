@@ -4,6 +4,7 @@ import 'package:restaurant_read_local_data_json/home.dart';
 import 'package:restaurant_read_local_data_json/login.dart';
 import 'package:restaurant_read_local_data_json/navMenu.dart';
 import 'package:restaurant_read_local_data_json/regist.dart';
+import 'package:restaurant_read_local_data_json/restaurantDetail.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

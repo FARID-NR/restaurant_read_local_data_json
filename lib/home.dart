@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:restaurant_read_local_data_json/data.dart';
+import 'package:restaurant_read_local_data_json/listRestaurant.dart';
 import 'package:restaurant_read_local_data_json/navMenu.dart';
 
 class HomePage extends StatefulWidget {
@@ -103,7 +104,7 @@ class _HomePageState extends State<HomePage> {
             return ListRestaurant(restaurant: restaurant);
           },
         ),
-      ),,
+      ),
     );
   }
 }
